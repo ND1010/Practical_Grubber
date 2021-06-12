@@ -1,0 +1,105 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnPrimary">@color/colorOnBackground</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorOnSurface">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorSurface">@color/colorPrimary</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@font/muli_regular</item>
+    </style>
+
+    <style name="FullScreenDialogStyle" parent="AppTheme">
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+    //clickable
+
+    <style name="clickableBackgroudBorderless">
+        <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="clickableBackgroudBorder">
+        <item name="android:background">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="clickableBorder">
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+<!--text size-->
+    <style name="fontExtraSmall">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="fontSmall">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="fontNormal">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="fontMedium">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="fontLarge">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="fontExtraLarge">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    //muli bold
+    <style name="muliBoldExtraSmall" parent="fontExtraSmall">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="muliBoldSmall" parent="fontSmall">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="muliBoldNormal" parent="fontNormal">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="muliBoldMedium" parent="fontMedium">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="muliBoldLarge" parent="fontLarge">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    <style name="muliBoldExtraLarge" parent="fontExtraLarge">
+        <item name="fontFamily">@font/muli_bold</item>
+    </style>
+
+    //muli extra bold
+    <style name="muliExtraBoldExtraSmall" parent="fontExtraSmall">
+        <item name="fontFamily">@font/muli_extra_bold</item>
+    </style>
+
+    <style name="muliExtraBoldNormal" parent="fontNormal">
+        <item name="fontFamily">@font/muli_extra_bold</item>
+    </style>
+
+    //muli light
+
+    //muli extra light
+
+
+</resources>

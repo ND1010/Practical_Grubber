@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#efa335</color>
+    <color name="colorPrimaryDark">#FFF</color>
+    <color name="colorAccent">#5C5C61</color>
+    <color name="colorOnBackground">#efa335</color>
+    <color name="black">#000</color>
+    <color name="grey_light">#f0f0f0</color>
+
+
+    <color name="grey_soft">#5C5C61</color>
+    <color name="grey_dark">#47484B</color>
+
+    <!--reds-->
+    <color name="md_red_200">#EF9A9A</color>
+    <color name="md_red_700">#D32F2F</color>
+
+    <!-- pinks -->
+
+    <!-- purples -->
+
+    <!-- deep purples -->
+
+    <!-- indigo -->
+    <color name="md_indigo_200">#9FA8DA</color>
+
+    <!--blue-->
+
+    <!-- light blue-->
+
+    <!-- cyan -->
+
+    <!-- teal -->
+
+    <!-- green -->
+
+    <!--light green-->
+
+    <!-- lime-->
+
+    <!--yellow -->
+
+    <!--amber-->
+
+    <!--orange-->
+
+    <!--deep orange-->
+
+    <!--brown -->
+
+    <!--grey-->
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_white_1000">#ffffff</color>
+
+    <!--blue grey-->
+    <color name="md_blue_grey_900">#263238</color>
+    <color name="white">#FFF</color>
+
+</resources>
